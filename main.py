@@ -61,7 +61,7 @@ async def postear_data(dataacrear: DataIn):
     return new_data
 
 
-@api.post("/DataIn/intfinanciera")
+@api.post("/DataIn/intfinanciera/")
 async def postear_frase(dataacrear: DataIn):
     new_data = create_frase(dataacrear)
     if new_data == "":
